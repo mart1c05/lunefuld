@@ -419,7 +419,8 @@
     <!-- Content -->
 
     <!-- Kunstnere start -->
-    <main class="p-16">
+    <main class="p-16 hover:cursor-default">
+      <!-- liste af fotografer -->
       <section>
         <div class="pb-10 text-center">
           <h2 class="pb-3 text-3xl font-bold">Lunefulds fotografer</h2>
@@ -461,27 +462,149 @@
         </article>
       </section>
 
-      <section class="pt-20">
-        <h2 class="pb-10 text-center text-xl font-bold">
+      <!-- biografier -->
+      <section class="pt-32">
+        <h2 class="pb-16 text-center text-2xl font-bold">
           Læs mere om to af vores populære fotografer
         </h2>
-        <article class="grid grid-cols-2">
-          <div>
-            <h3>Tom Jørgensen</h3>
-            <img src="content/tom-jorgensen.jpg" alt="" />
-          </div>
-          <div></div>
-        </article>
-        <article>
-          <div>
-            <h3>Turið Dagstad</h3>
-            <img src="content/turid.jpg" alt="" />
-          </div>
-        </article>
+        <div class="grid grid-cols-2 gap-32">
+          <!-- facts om tom -->
+          <article class="grid grid-cols-2 gap-10 bg-zinc-100 p-5 shadow-lg">
+            <div>
+              <img class="" src="content/tom-jorgensen.jpg" alt="" />
+            </div>
+            <div>
+              <h3 class="pb-5 text-xl font-bold">Tom Jørgensen</h3>
+              <p class="pb-2">Født: 1974 i Silkeborg, Danmark</p>
+              <p>Bopæl: Cold Hawaii i Thy</p>
+            </div>
+
+            <div class="pt-5">
+              <p class="pb-5 font-bold">CV - uddannelse:</p>
+              <p class="pb-2 text-sm">
+                Uddannet Mediegrafiker fra Aarhus Tech, 1996
+              </p>
+              <p class="pb-2 text-sm">
+                Bachelor i visuel kommunikation, DMJX, 2008
+              </p>
+              <p class="pb-2 text-sm">
+                Grundkursus i Foto fra Fatamorgana, København, 2010
+              </p>
+              <p class="text-sm">
+                Har vundet utallige konkurrencer i danmark og resten af norden
+                for sine melankolske fotoserier, og har blandt andet en
+                FLAP-titel fra Dansk foto.
+              </p>
+            </div>
+            <div class="pt-5">
+              <p class="pb-5 font-bold">CV - arbejde:</p>
+              <p class="pb-2 text-sm">
+                1996-2006: Mediegrafiker hos Østjysk Designbureau. Gik fra at
+                være mediegrafiker til senior art director i virksomheden.
+              </p>
+              <p class="pb-2 text-sm">
+                2008-2012: Art Director, Birkmann Media
+              </p>
+              <p class="pb-2 text-sm">
+                2004-nu: Freelance fotograf - primært landskaber, bylandskaber
+                og arkitektur.
+              </p>
+              <p class="text-sm">I 2012 blev Tom fotograf på fuld tid.</p>
+            </div>
+
+            <!-- toms biografi -->
+            <div class="col-span-2 p-5">
+              <p class="pb-4 text-center font-semibold">Toms biografi</p>
+              <p>
+                Siden barndommen har Tom elsket at tegne, arbejde med grafik på
+                computeren og tage fotos. Det var derfor naturligt for Tom at
+                blive grafiker, og arbejde sig op i graderne i bureaubranchen.
+                <br />
+                <br />
+                Efter flere års hektisk arbejdsliv, fik Tom dog lidt af en
+                nedtur. Skulle resten af livet fortsætte på denne måde? Tom tog
+                en drastisk beslutning om at skifte storbylivet ud med en stille
+                tilværelse i det nordvestlige Jylland.
+                <br />
+                Nu lever Tom livet som freelance- og kunstfotograf, og det er
+                ifølge ham:
+              </p>
+              <p class="py-5 text-xl italic">
+                “Den bedste beslutning jeg nogensinde har taget. Det kan godt
+                være at jeg kører rundt i en gammel rusten Ford Sierra. Til
+                gengæld sover jeg 8 timer hver dag, og min hjerterytme er helt
+                stabil.”
+              </p>
+            </div>
+          </article>
+
+          <!-- facts om turid -->
+          <article class="grid grid-cols-2 gap-10 bg-zinc-100 p-5 shadow-lg">
+            <div>
+              <img class="w-11/12" src="content/turid.jpg" alt="" />
+            </div>
+            <div>
+              <h3 class="pb-5 text-xl font-bold">Turið Dagstad</h3>
+              <p class="pb-2">Født: 1990 i Thorshavn, Færøerne</p>
+              <p>Bopæl: Thorshavn, Færøerne</p>
+            </div>
+
+            <div>
+              <p class="pb-5 font-bold">CV - uddannelse:</p>
+              <p class="pb-2 text-sm">
+                Student, Miðnám á Kambsdali gymnasium, 2011
+              </p>
+              <p class="pb-2 text-sm">
+                Folkeskolelærer, Føroya Læraraskúli, 2018
+              </p>
+              <p class="text-sm">
+                Har vundet international hæder for siden færøske fotoserier, og
+                har blandt andet fået titlen “ridder af det færøske fotoselskab”
+                i 2020
+              </p>
+            </div>
+            <div>
+              <p class="pb-5 font-bold">CV - arbejde:</p>
+              <p class="pb-2 text-sm">2012-nu: Tourguide, Faroese Foto-tours</p>
+              <p class="pb-2 text-sm">
+                2012-nu: Freelance fotograf - primært landskaber. Har bl.a.
+                udgivet fotobogen Føroya by Night.
+              </p>
+              <p class="text-sm">
+                2018-nu: Folkeskolelærer (siden 2020 på deltid)
+              </p>
+            </div>
+
+            <!-- turids biografi -->
+            <div class="col-span-2">
+              <p class="pb-4 text-center font-semibold">Turiðs biografi</p>
+              <p>
+                Turið er en af Lunefuld Lykkes unge fotografer. Turið fik sit
+                første kamera som blot 11-årig, og steg hurtigt i graderne i de
+                færøske fotoklubber. Det var i høj grad billeder af de færøske
+                landskaber, og hendes evne til at få en personlig dimension ind
+                i dem, der gjorde hende populær. <br />
+                <br />
+                I de sene teenageår begyndte blev den personlige dimension dog
+                mere dyster: Turið fik en lang depression, og brugte fotografiet
+                for at udtrykke hendes aktuelle sindsstemning. Den dystre
+                billedstil blev populær, og Turið fik en masse følgere på
+                Instagram. 112.517, faktisk. <br />
+                <br />
+                Men så blev det for meget. Hun ville væk fra mediehysteriet,
+                slettede alle SoMe-profiler og købte en gammel Nokia 3310. Hun
+                begyndte at læse til lærer, oget gav hende mere stabilitet i
+                hverdagen. Nu har hun fundet kameraet frem igen. Hun kommer dog
+                ikke på instagram - hun tager billederne, og Lunefuld Lykke står
+                for alt det praktiske med salg, markedsføring (det Turið så
+                vittigt kalder markedsafføring) og sociale medier.
+              </p>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
     <!-- Kunstnere slut -->
-
     <!-- Content slut-->
 
     <!-- Footer -->
