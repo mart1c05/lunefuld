@@ -8,10 +8,10 @@
     }
  }
 @layer base {
-    h1, h2, h3, h4 {
+    h1, h2, h3, h4, button {
         font-family: 'Montserrat', sans-serif;
     }
-    p, li {
+    p, li,  {
         font-family: 'Libre Baskerville', serif;
     }
 
