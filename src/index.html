@@ -58,7 +58,7 @@
                 />
               </button>
               <button
-                aria-label="go to cart hej"
+                aria-label="go to cart"
                 class="text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800"
               >
                 <img
@@ -400,67 +400,117 @@
     <!-- Navigation slut -->
 
     <!-- Content -->
+    <main class="overflow-clip">
+      <!-- Hero -->
 
-    <!-- Hero -->
+      <div
+        class="h-screen w-screen bg-[url('hero.png')] bg-contain bg-no-repeat"
+      >
+        <div class="relative top-72 flex flex-col gap-5 bg-[#ffffffd3] p-5">
+          <h1 class="font-regular mx-auto text-7xl text-[#2c2b3b]">
+            Lunefuld Plakater
+          </h1>
 
-    <div class="h-screen w-screen bg-[url('hero.png')] bg-contain bg-no-repeat">
-      <div class="relative top-72 flex flex-col gap-5 bg-[#ffffffd3] p-5">
-        <h1 class="font-regular mx-auto text-7xl text-[#2c2b3b]">
-          Lunefuld Plakater
-        </h1>
+          <h2 class="mx-auto text-lg text-[#2c2b3b]">
+            Indram hjemmet med verdens uforudsigelige natur.
+          </h2>
+        </div>
+        <div class="relative top-80 flex justify-center">
+          <button
+            class="font-regular border-2 border-solid border-[#2c2b3b] bg-[#2c2b3b] p-3 text-xl font-medium text-[#ffffff] hover:scale-105 hover:cursor-pointer"
+          >
+            <a href="">Find din nye plakat her!</a>
+          </button>
+        </div>
+      </div>
 
-        <h2 class="mx-auto text-lg text-[#2c2b3b]">
-          Indram hjemmet med verdens uforudsigelige natur.
+      <!-- Hero slut -->
+      <!-- Featured categories start -->
+
+      <section class="pt-24">
+        <h2 class="text-center text-2xl font-extrabold">
+          Vores populære kategorier
         </h2>
-      </div>
-      <div class="relative top-80 flex justify-center">
-        <button
-          class="font-regular border-2 border-solid border-[#2c2b3b] bg-[#2c2b3b] p-3 text-xl font-medium text-[#ffffff] hover:scale-105 hover:cursor-pointer"
-        >
-          <a href="">Find din nye plakat her!</a>
-        </button>
-      </div>
-    </div>
+        <article class="grid grid-cols-3 grid-rows-2 gap-10">
+          <div class="">
+            <h2 class="text-center">Natur</h2>
+            <img
+              class="bg-white opacity-60 hover:cursor-pointer hover:opacity-100"
+              src="content/posters/poster-10.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2 class="text-center">Sort/hvid</h2>
+            <img
+              class="bg-white opacity-60 hover:cursor-pointer hover:opacity-100"
+              src="content/posters/poster-2.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2 class="text-center">Byliv</h2>
+            <img
+              class="bg-white opacity-60 hover:cursor-pointer hover:opacity-100"
+              src="content/posters/poster-11-2.jpg"
+              alt=""
+            />
+          </div>
+        </article>
+      </section>
+      <!-- Featured categories slut -->
 
-    <!-- Hero slut -->
-    <!-- Featured categories start -->
+      <!-- Testimonials start -->
+      <section class="h-[150vh] bg-[#a2a9b243] pt-10">
+        <h2 class="my-10 text-center text-3xl font-bold">Inspiration</h2>
+        <h3 class="text-center leading-7">
+          Mangler du lidt inspiration til hvilke plakater du skal eje og hvor de
+          skal placeres?
+          <br />
+          Klik dig igennem vores galleri og bliv inspireret af vores trofaste
+          kunder og hvordan de bruger Lunefuld Plakater.
+        </h3>
+        <div class="mt-20 flex justify-center">
+          <img class="w-1/4" src="content/posters/poster-8.jpg" alt="" />
+          <div class="w-1/3 bg-[#ffffffa0]">
+            <h3 class="mt-10 text-center font-semibold">Susan</h3>
+            <h4 class="text-center">Holbæk - Tom Jørgensen</h4>
+            <div class="grid place-content-center p-10">
+              <svg width="50" height="50" viewBox="0 0 24 24">
+                <path
+                  fill="#8daef0"
+                  d="m10 7l-2 4h3v6H5v-6l2-4h3m8 0l-2 4h3v6h-6v-6l2-4h3Z"
+                />
+              </svg>
+              <div
+                class="m-auto border border-solid border-y-[#8daef0] border-x-transparent text-xl italic leading-8"
+              >
+                <p class="p-5">
+                  Jeg købte plakaten "Holbæk" som et minde fra en fantastisk tur
+                  med min partner. Billedet giver mig indre ro og bringer mig
+                  tilbage til Holbæks hede. Hvis du mangler zen i dit liv, ville
+                  jeg forslå at placere plakaten over inde i dagligstuen,
+                  eksempelvis over kaminen og helst mod naturlig sollys.
+                </p>
+              </div>
+              <div class="flex justify-end">
+                <svg class="" width="50" height="50" viewBox="0 0 24 24">
+                  <path
+                    fill="#8daef0"
+                    d="M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3l-2 4Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section class="pt-24">
-      <h2 class="text-center text-2xl font-extrabold">
-        Vores populære kategorier
-      </h2>
-      <article class="grid grid-cols-3 grid-rows-2 gap-10">
-        <div class="">
-          <h2 class="text-center">Natur</h2>
-          <img
-            class="bg-white opacity-60 hover:cursor-pointer hover:opacity-100"
-            src="content/posters/poster-10.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <h2 class="text-center">Sort/hvid</h2>
-          <img
-            class="bg-white opacity-60 hover:cursor-pointer hover:opacity-100"
-            src="content/posters/poster-2.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <h2 class="text-center">Byliv</h2>
-          <img
-            class="bg-white opacity-60 hover:cursor-pointer hover:opacity-100"
-            src="content/posters/poster-11-2.jpg"
-            alt=""
-          />
-        </div>
-      </article>
-    </section>
-    <!-- Featured categories slut -->
+      <!-- Testimonials slut -->
 
-    <!-- Content slut-->
-    <!-- Cookieboks start-->
-    <!-- <div  class="bg-[#d2d1d1ea] w-1/3 p-8 border-2 border-black fixed z-10 bottom-0 right-0" id="cookieboks">
+      <!-- Content slut-->
+      <!-- Cookieboks start-->
+      <!-- <div  class="bg-[#d2d1d1ea] w-1/3 p-8 border-2 border-black fixed z-10 bottom-0 right-0" id="cookieboks">
       <div>
         <h3 class="text-xl font-bold mb-5">Du bestemmer over dine data</h3>
         <p>
@@ -483,8 +533,8 @@
    </div>
     </div> -->
 
-    <!-- Cookieboks slut-->
-
+      <!-- Cookieboks slut-->
+    </main>
     <!-- Footer -->
     <footer class="bg-[#2c2b3b]">
       <div class="mx-auto py-10 px-8">
