@@ -2,17 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .text-shadow{
-     text-shadow: 2px 2px #333;
-    }
- }
+@layer components {
+  .text-shadow {
+    text-shadow: 2px 2px #333;
+  }
+}
 @layer base {
-    h1, h2, h3, h4, button {
-        font-family: 'Montserrat', sans-serif;
-    }
-    p, li,  {
-        font-family: 'Libre Baskerville', serif;
-    }
-
+  h1,
+  h2,
+  h3,
+  h4,
+  button,
+  p,
+  li {
+    font-family: "Montserrat", sans-serif;
+  }
 }
