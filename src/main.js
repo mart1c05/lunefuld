@@ -19,3 +19,4 @@ function fjernCookieBoks() {
 if (sessionStorage.getItem("fjerncookieboks")) {
     fjernCookieBoks.classList.add("hidden");
 }
+
